@@ -1,0 +1,132 @@
+.contactForm {
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .contactLabel {
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .contactInput {
+    width: 305px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 8px;
+    margin-top: 5px;
+  }
+  
+  .contactError {
+    width: auto;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 8px;
+    margin-top: 5px;
+    color: rgb(168, 32, 32);
+    margin-bottom: 5px;
+  }
+  
+  .form {
+    width: 320px;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 16px;
+    font-weight: 400;
+  }
+  
+  .passlabel {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-weight: 400;
+  }
+  
+  .input {
+    width: 300px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  .passArea {
+    width: 320px;
+    display: flex;
+    align-items: start;
+    margin-bottom: 16px;
+    font-weight: 400;
+  }
+  .passInput {
+    width: 270px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  .eyeBtn {
+    padding: 0px;
+    align-items: center;
+  }
+  
+  .error {
+    width: 300px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(168, 32, 32);
+  }
+  
+  .btn {
+    display: flex;
+    align-items: start;
+    padding: 5px 10px;
+    font-weight: 400;
+    border-width: 2 px;
+    border-color: black;
+    border-width: 2 px;
+  }
+  
+  .delButton {
+    height: 30px;
+    width: 70px;
+    margin: 5px;
+  
+    padding: 2px 5px 2px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    border-color: black;
+    border-width: 2 px;
+    place-items: center;
+  }
+  
+  .addBtn {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+  
+    font-weight: 500;
+    font-size: 14px;
+    background-color: lightgray;
+    border-width: 2 px;
+    border-color: black;
+    border-width: 2 px;
+    border-radius: 5px;
+  
+    margin-top: 5px;
+    margin-bottom: 10px;
+    place-items: center;
+  }
+  
+  .buttonWrapper {
+    display: flex;
+    justify-content: center;
+  }
